@@ -26,8 +26,10 @@
 .swiper-slide{
     background-color: white;
 }
-.swiper{
+.swiper-1{
     flex: 1;
+    width: 600px;
+    height: 300px;
 }
 
 .cards{

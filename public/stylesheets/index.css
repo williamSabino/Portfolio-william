@@ -1,6 +1,7 @@
 @import url('./carrocel.css');
 @import url('./hard_skills.css');
 @import url('./cursos.css');
+@import url('./certificados.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@400;500;600&display=swap');
 
 :root {
@@ -119,10 +120,3 @@
 .sobremim {
     width: 25vw;
 }
-
-
-/*Carrocel*/
-.swiper {
-    width: 600px;
-    height: 300px;
-  }

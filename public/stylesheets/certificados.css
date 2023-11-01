@@ -1,0 +1,93 @@
+.certificacoes {
+    height: 120vh;
+    background-color: var(--violet-900);
+    padding: 3rem 2rem;
+}
+
+.certificacoes__titulo {
+    width: max-content;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--branco);
+    margin-left: 10rem;
+    border-bottom: 2px solid var(--yellow-100);
+    border-left-width: 100px;
+    padding-top: 5rem;
+}
+
+.swiper-2 {
+    margin-top: 2rem;
+    width: 60%;
+    height: 700px;
+}
+
+.swiper-slide {
+    background-color: var(--violet-900);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:hover {
+    transform: scale(1.1);
+}
+
+
+/*Slides*/
+
+.certificado-1 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ HTML\ e\ CSS_\ Classes\,\ posicionamento\ e\ Flexbox\ -\ Alura-1.png');
+}
+
+.certificado-2 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ HTML\ e\ CSS_\ responsividade\ com\ mobile-first\ -\ Alura-1.png');
+}
+
+.certificado-3 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ JavaScript\ para\ Web_\ Crie\ páginas\ dinâmicas\ -\ Alura-1.png');
+}
+
+.certificado-4 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ JavaScript_\ manipulando\ elementos\ no\ DOM\ -\ Alura-1.png');
+}
+
+.certificado-5 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ JavaScript_\ programação\ orientada\ a\ objetos\ -\ Alura-1.png');
+}
+
+.certificado-6 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ Node.js_\ API\ Rest\ com\ Express\ e\ MongoDB\ -\ Alura-1.png');
+}
+
+.certificado-7 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ Node.js_\ criando\ uma\ API\ Rest\ com\ Express\ e\ MongoDB\ -\ Alura-1.png');
+}
+
+.certificado-8 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ Node.js_\ lidando\ com\ buscas\,\ filtros\,\ paginação\ e\ erros\ em\ uma\ API\ -\ Alura-1.png');
+}
+
+.certificado-9 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ Node.js_\ testes\ unitários\ e\ de\ integração\ -\ Alura-1.png');
+}
+
+.certificado-10 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ ORM\ com\ NodeJS_\ API\ com\ Sequelize\ e\ MySQL\ -\ Alura-1.png');
+}
+
+.certificado-11 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ ORM\ com\ NodeJS_\ avançando\ nas\ funcionalidades\ do\ Sequelize\ -\ Alura-1.png');
+}
+
+.certificado-12 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Curso\ WebSockets_\ implemente\ comunicações\ em\ tempo\ real\ com\ Socket.IO\ e\ MongoDB\ -\ Alura-1.png');
+}
+
+.certificado-13 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Formação\ A\ partir\ do\ zero_\ HTML\ e\ CSS\ para\ projetos\ web\ -\ Alura-1.png');
+}
+
+.certificado-14 {
+    background-image: url('../assets/certificados/william\ sabino\ silva\ -\ Formação\ Aprenda\ a\ programar\ em\ JavaScript\ com\ foco\ no\ back-end\ -\ Alura-1.png');
+}
