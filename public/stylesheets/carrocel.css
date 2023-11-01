@@ -1,0 +1,43 @@
+/*carrocel*/
+.carrocel{
+    margin-bottom: 3rem;
+}
+
+/*carrocel titulo*/
+.carrocel__titulo{
+    width: max-content;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--violet-900);
+    margin-left: 10rem;
+    border-bottom: 2px solid var(--yellow-100);
+    border-left-width: 100px;
+}
+
+/*carrocel portfolio*/
+.carrocel__portfolio {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.swiper-slide{
+    background-color: white;
+}
+.swiper{
+    flex: 1;
+}
+
+.cards{
+    flex: 1;
+    background-color: aquamarine;
+    width: 400px;
+    height: auto;
+}
+
+.slide-img{
+    width: 100%;
+}
+

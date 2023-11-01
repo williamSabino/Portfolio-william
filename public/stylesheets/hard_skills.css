@@ -1,0 +1,96 @@
+[teste="node"]{
+    --img-skills: url('../assets/img/node.jpeg');
+    --img-size: "none";
+}
+
+[teste="mongo"]{
+    --img-skills: url('../assets/img/mongo.png')
+}
+
+[teste="js"]{
+    --img-skills: url('../assets/img/js.png')
+}
+
+[teste="git"]{
+    --img-skills: url('../assets/img/gitt.png')
+}
+
+[teste="htmlcss"]{
+    --img-skills: url('../assets/img/htmll.png')
+}
+
+[teste="npm"]{
+    --img-skills: url('../assets/img/npm.png')
+}
+
+
+
+.hard_skills {
+    padding-bottom: 1rem;
+    height: auto;
+    background-color: var(--violet-900);
+    background-image: url('../assets/img/Style\ background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo__skills {
+    width: max-content;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--branco);
+    margin-left: 10rem;
+    border-bottom: 2px solid var(--yellow-100);
+    border-left-width: 100px;
+    padding-top: 5rem;
+}
+
+.lista__skills {
+    margin: 5rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 5rem 10.37rem;
+}
+
+.skills {
+    padding: 8px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background: var(--branco);
+}
+
+
+.titulo__linha__skills {
+    font-family: var(--font-title);
+    font-weight: 700;
+    color: var(--violet-900);
+    font-size: 26px;
+    margin-bottom: 1rem;
+}
+
+.texto__linha__skills {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--violet-900);
+    font-size: 1rem;
+}
+
+.img__linha__skills {
+    position: relative;
+    left: 4rem;
+    bottom: 2.5rem;
+    width: 125px;
+    height: 125px;
+    background-image: var(--img-skills);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+
+

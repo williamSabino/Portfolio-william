@@ -1,0 +1,129 @@
+@import url('./carrocel.css');
+@import url('./hard_skills.css');
+@import url('./cursos.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@400;500;600&display=swap');
+
+:root {
+    --font-principal: 'Quicksand', sans-serif;
+    --font-title: 'Poppins', sans-serif;
+
+    --violet-900: #3c2a56;
+    --yellow-100: #F3C371;
+    --branco: #ffffff;
+}
+
+;
+
+* {
+    font-family: var(--font-principal);
+    font-size: 0.88rem;
+}
+
+/*Menu*/
+.menu {
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26rem;
+    background-color: var(--branco);
+}
+
+.menu__logo {
+    font-size: 24px;
+}
+
+.lista__links {
+    display: flex;
+    gap: 2rem;
+}
+
+/*Banner principal*/
+
+.foto__perfil{
+    background-image: url('../assets/img/images.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner__principal {
+    height: 330px;
+    background-image: url('../assets/img/gradient-blur.png'), url('../assets/img/noise.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--violet-900);
+    color: var(--branco);
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.principal__nome {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.funcao {
+    color: var(--yellow-100);
+}
+
+.subfuncao {
+    font-size: 18px;
+    font-family: var(--font-principal);
+    font-weight: 400;
+}
+
+.foto__perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+/*about me*/
+
+.aboutme {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 3rem;
+}
+
+.aboutme__titulo {
+    text-align: center;
+    font-family: var(--font-title);
+    color: var(--violet-900);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.aboutme__texto{
+    text-align: justify;
+}
+
+.linha {
+    border: solid 1px var(--yellow-100);
+    width: 90%;
+}
+
+.sobremim {
+    width: 25vw;
+}
+
+
+/*Carrocel*/
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

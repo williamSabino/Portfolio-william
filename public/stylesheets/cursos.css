@@ -1,0 +1,47 @@
+.cursos{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos__titulo{
+    margin-right: 200px;
+    text-align: center;
+    width: max-content;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--violet-900);
+    margin-left: 10rem;
+    border-bottom: 2px solid var(--yellow-100);
+    border-left-width: 100px;
+    padding-top: 5rem;
+}
+
+.cursos__listas{
+    padding: 1rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.lista_back li,.lista_front li{
+    list-style: disc;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: var(--violet-900);
+}
+
+.lista_back{
+    padding-right: 30px;
+    border-right: 2px solid var(--violet-900);
+}
+
+.listas__titulo{   
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--violet-900);
+    text-align: start;
+}
