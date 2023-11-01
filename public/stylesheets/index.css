@@ -41,9 +41,8 @@
 /*Banner principal*/
 
 .foto__perfil{
-    background-image: url('../assets/img/images.jpeg');
+    background-image: url('../assets/img/Perfil.jpg');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
