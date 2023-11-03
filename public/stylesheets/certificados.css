@@ -1,5 +1,6 @@
 .certificacoes {
-    height: 120vh;
+    padding-bottom: 2rem;
+    height: auto;
     background-color: var(--violet-900);
     padding: 3rem 2rem;
 }
@@ -18,20 +19,30 @@
 
 .swiper-2 {
     margin-top: 2rem;
-    width: 60%;
-    height: 700px;
+    width: 750px;
+    height: 500px;
+}
+
+.swiper-bottom{
+    width: 900px;
+    height: 200px;
 }
 
 .swiper-slide {
     background-color: var(--violet-900);
     background-position: center;
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-.swiper-slide:hover {
-    transform: scale(1.1);
-}
+.gallery-bottom .swiper-slide {
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .gallery-bottom .swiper-slide-thumb-active {
+    opacity: 1;
+  }
 
 
 /*Slides*/

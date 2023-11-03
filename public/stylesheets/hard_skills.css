@@ -47,7 +47,7 @@
 }
 
 .lista__skills {
-    margin: 5rem 8rem;
+    padding: 8rem 0 8rem 8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
